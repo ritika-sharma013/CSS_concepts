@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 600px;
+    border: 8px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* justify-content: center;
+    align-items: center;
+    align-content: center; */
+
+    /* default value. items are packed toward the start of the flex-direction. */
+    /* elements laid out in row. when used flex as display. Works across main-axis */
+    /* flex-wrap - If we dont have enough space, items will wrap to the next line/ */
+    /* align-item - aligns items alonth the cross-axis for every block individually */
+    /* align-content- align the entire flex container along the cross-axis */
+    /* flex-shrink - controls how much an item can shrink if necessary. Default value = 1*/
+    /* flex-grow - controls how much an item can grow if necessary. Default value = 0*/
+
+}
+
+.box {
+    /* flex-shrink:1; */
+    /* flex-grow: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    font-size: 30px;
+    color: #000;
+
+}
